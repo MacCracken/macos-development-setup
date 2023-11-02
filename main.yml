@@ -4,5 +4,3 @@
 
   roles:
     - role: elliotweiser.osx-command-line-tools
-      vars: 
-        force_install: yes
