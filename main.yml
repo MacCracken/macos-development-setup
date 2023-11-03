@@ -2,5 +2,10 @@
 - name: Configure host
   hosts: all
 
+  vars_files:
+    - default.config.yml
+    
   roles:
     - role: elliotweiser.osx-command-line-tools
+    - role: geerlingguy.mac.homebrew
+      tags: ['homebrew']
