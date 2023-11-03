@@ -20,11 +20,11 @@ Inspired by Jeff Geerling's [mac-dev-playbook](https://github.com/geerlingguy/ma
 
 ### TASKS
 
-  [ ] install brew packages
-  [ ] zsh, powerlevel10k & .zshrc
-  [ ] iterm & iterm defaults
-  [ ] development applications
-    [ ] docker-desktop
-    [ ] vscode
-    [ ] tbd
-  [ ] more to be determined
+- [ ] install brew packages
+- [ ] zsh, powerlevel10k & .zshrc
+- [ ] iterm & iterm defaults
+- [ ] development applications
+  - [ ] docker-desktop
+  - [ ] vscode
+  - [ ] tbd
+- [ ] more to be determined
