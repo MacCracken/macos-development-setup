@@ -8,6 +8,7 @@ homebrew_installed_packages:
   - openssl
   - terraform
   - wget
+  - zsh-syntax-highlighting
 
 homebrew_taps:
   - homebrew/core
