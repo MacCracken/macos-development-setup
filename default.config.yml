@@ -1,6 +1,13 @@
 homebrew_installed_packages:
+  - autoconf
+  - awscli
+  - figlet
   - git
   - go
+  - lolcat
+  - openssl
+  - terraform
+  - wget
 
 homebrew_taps:
   - homebrew/core
@@ -8,4 +15,7 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - iterm2
   - visual-studio-code
+  - vagrant
+  - font-hack-nerd-font

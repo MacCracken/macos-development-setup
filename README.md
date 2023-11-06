@@ -20,11 +20,13 @@ Inspired by Jeff Geerling's [mac-dev-playbook](https://github.com/geerlingguy/ma
 
 ### TASKS
 
-- [ ] install brew packages
+- [X] install brew packages
+  - [ ] additional packages tbd
+- [X] development applications
+  - [ ] additional apps tbd
+- [ ] dotfiles
+- [ ] create .figlet dir and add flf file
 - [ ] zsh, powerlevel10k & .zshrc
-- [ ] iterm & iterm defaults
-- [ ] development applications
-  - [ ] docker-desktop
-  - [ ] vscode
-  - [ ] tbd
+- [ ] docker-desktop
+- [ ] iterm2 defaults
 - [ ] more to be determined
