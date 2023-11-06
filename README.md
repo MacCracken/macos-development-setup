@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/MacCracken/macos-development-setup/main/Mac-Dev-Playbook-Logo.png" width="250" height="156" alt="Mac Dev Playbook Logo" />
+<img src="https://raw.githubusercontent.com/MacCracken/macos-development-setup/main/files/Mac-Dev-Playbook-Logo.png" width="250" height="156" alt="Mac Dev Playbook Logo" />
 
 # MacOS Development Setup - Ansible Playbook
 
@@ -24,9 +24,12 @@ Inspired by Jeff Geerling's [mac-dev-playbook](https://github.com/geerlingguy/ma
   - [ ] additional packages tbd
 - [X] development applications
   - [ ] additional apps tbd
+- [X] mas (mac app store) applications
+  - [ ] additional mas apps tbd
 - [ ] dotfiles
 - [ ] create .figlet dir and add flf file
 - [ ] zsh, powerlevel10k & .zshrc
 - [ ] docker-desktop
 - [ ] iterm2 defaults
+- [ ] obsidian
 - [ ] more to be determined
