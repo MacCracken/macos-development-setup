@@ -23,7 +23,6 @@ dockitems_persist:
 homebrew_installed_packages:
   - autoconf
   - awscli
-  - docker
   - figlet
   - git
   - go
@@ -39,6 +38,7 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - docker
   - font-hack-nerd-font
   - iterm2
   - obsidian
