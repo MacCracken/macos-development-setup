@@ -28,7 +28,7 @@ dockitems_persist:
 
 dotfiles_repo: https://github.com/maccracken/dotfiles.git
 dotfiles_repo_accept_hostkey: true
-dotfiles_repo_local_destination: "~"
+dotfiles_repo_local_destination: "~/.dotfiles"
 dotfiles_files:
   - .aliases
   - .functions.zsh
