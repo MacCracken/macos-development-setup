@@ -2,7 +2,7 @@
 
 # MacOS Development Setup - Ansible Playbook
 
-Inspired by Jeff Geerling's [mac-dev-playbook](https://github.com/geerlingguy/mac-dev-playbook/tree/master), this playbok attempts to get a fresh MacOs computer setup for development purposes. More TBD
+Inspired by Jeff Geerling's [mac-dev-playbook](https://github.com/geerlingguy/mac-dev-playbook/tree/master) using most of its roles, this playbok attempts to get a fresh MacOs computer setup for development purposes. More TBD
 
 ## Installation
 
@@ -23,11 +23,12 @@ Inspired by Jeff Geerling's [mac-dev-playbook](https://github.com/geerlingguy/ma
 - [X] install brew packages
 - [X] development applications
 - [X] mas (mac app store) applications
-- [ ] dotfiles
+- [X] dotfiles (.zshrc, etc)
 - [ ] create .figlet dir and add flf from files
-- [ ] zsh, powerlevel10k & .zshrc
+- [ ] zsh, powerlevel10k
 - [ ] iterm2 defaults
 - [ ] more to be determined
+  - [ ] additional dotfile items/updates
   - [ ] additional packages tbd
   - [ ] additional apps tbd
   - [ ] additional mas apps tbd
