@@ -21,15 +21,13 @@ Inspired by Jeff Geerling's [mac-dev-playbook](https://github.com/geerlingguy/ma
 ### TASKS
 
 - [X] install brew packages
-  - [ ] additional packages tbd
 - [X] development applications
-  - [ ] additional apps tbd
 - [X] mas (mac app store) applications
-  - [ ] additional mas apps tbd
-- [X] obsidian install
 - [ ] dotfiles
-- [ ] create .figlet dir and add flf file
+- [ ] create .figlet dir and add flf from files
 - [ ] zsh, powerlevel10k & .zshrc
-- [ ] docker-desktop
 - [ ] iterm2 defaults
 - [ ] more to be determined
+  - [ ] additional packages tbd
+  - [ ] additional apps tbd
+  - [ ] additional mas apps tbd
