@@ -27,8 +27,10 @@ dockitems_persist:
     pos: 8
 
 dotfiles_repo: https://github.com/maccracken/dotfiles.git
+dotfiles_repo_version: main
 dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: "~/.dotfiles"
+dotfiles_home: "~"
 dotfiles_files:
   - .aliases
   - .functions.zsh
@@ -47,6 +49,8 @@ homebrew_installed_packages:
   - go
   - lolcat
   - openssl
+  - powerlevel10k
+  - ruby
   - terraform
   - wget
   - zsh-syntax-highlighting
