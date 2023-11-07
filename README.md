@@ -26,10 +26,10 @@ Inspired by Jeff Geerling's [mac-dev-playbook](https://github.com/geerlingguy/ma
   - [ ] additional apps tbd
 - [X] mas (mac app store) applications
   - [ ] additional mas apps tbd
+- [X] obsidian install
 - [ ] dotfiles
 - [ ] create .figlet dir and add flf file
 - [ ] zsh, powerlevel10k & .zshrc
 - [ ] docker-desktop
 - [ ] iterm2 defaults
-- [ ] obsidian
 - [ ] more to be determined

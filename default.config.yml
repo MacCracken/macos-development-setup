@@ -7,6 +7,9 @@ dockitems_remove: []
 # - Podcasts
 # - 'App Store'
 dockitems_persist:
+  - name: "Obsidian"
+    path: "/Applications/Obsidian.app/"
+    pos: 5
   - name: "iTerm"
     path: "/Applications/iTerm.app/"
     pos: 6
@@ -17,6 +20,7 @@ dockitems_persist:
 homebrew_installed_packages:
   - autoconf
   - awscli
+  - docker
   - figlet
   - git
   - go
@@ -45,3 +49,32 @@ mas_installed_apps:
 
 mas_email: ""
 mas_password: ""
+
+macos_script: "~/.macos --no-restart"
+
+# Install packages from other package managers.
+# Note: You are responsible for making sure the required package managers are
+# installed, eg. through homebrew.
+composer_packages: []
+# - name: drush
+#   state: present # present/absent, default: present
+#   version: "^8.1" # default: N/A
+gem_packages:
+  - name: colorls
+    state: present
+    version: "~> 1.4.6"
+#gem_packages: []
+# - name: bundler
+#   state: present # present/absent/latest, default: present
+#   version: "~> 2.4.21" # default: N/A
+npm_packages: []
+# - name: webpack
+#   state: present # present/absent/latest, default: present
+#   version: "^2.6" # default: N/A
+pip_packages: []
+# - name: mkdocs
+#   state: present # present/absent/latest, default: present
+#   version: "0.16.3" # default: N/A
+
+
+# 53f7b752fe33f7bc3ef184127aa480ef2982e2c2
