@@ -1,8 +1,6 @@
 ---
 roles:
   - name: elliotweiser.osx-command-line-tools
-  - src: https://github.com/MacCracken/macos-dmg-install.git
-    name: maccracken.macos-dmg-install
 
 collections:
   - name: geerlingguy.mac
