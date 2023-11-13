@@ -25,7 +25,7 @@ Inspired by Jeff Geerling's [mac-dev-playbook](https://github.com/geerlingguy/ma
 - [X] mas (mac app store) applications
 - [X] dotfiles (.zshrc, etc)
 - [X] powerlevel10k
-- [ ] zsh
+- [X] ohmyzsh
 - [ ] create .figlet dir and add flf from files
 - [ ] iterm2 defaults
 - [ ] more to be determined

@@ -2,6 +2,10 @@
 roles:
   - name: elliotweiser.osx-command-line-tools
   - name: geerlingguy.dotfiles
+  - name: maccracken.ohmyzsh
+    src: ssh://git@github.com/maccracken/role-ohmyzsh.git
+    version: main
+    scm: git
 
 collections:
   - name: geerlingguy.mac

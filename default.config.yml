@@ -45,6 +45,7 @@ homebrew_installed_packages:
   - autoconf
   - awscli
   - figlet
+  - fzf
   - git
   - go
   - lolcat

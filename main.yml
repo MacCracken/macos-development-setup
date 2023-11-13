@@ -9,6 +9,8 @@
     - role: elliotweiser.osx-command-line-tools
     - role: geerlingguy.mac.homebrew
       tags: ['homebrew']
+    - role: maccracken.ohmyzsh
+      tags: ['ohmyzsh']
     - role: geerlingguy.dotfiles
       when: configure_dotfiles
       tags: ['dotfiles']
