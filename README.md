@@ -24,9 +24,8 @@ Inspired by Jeff Geerling's [mac-dev-playbook](https://github.com/geerlingguy/ma
 - [X] development applications
 - [X] mas (mac app store) applications
 - [X] dotfiles (.zshrc, etc)
-- [X] powerlevel10k
-- [X] ohmyzsh
-- [ ] create .figlet dir and add flf from files
+- [X] ohmyzsh role, powerlevel10k brew cask
+- [X] ensure .figlet/fonts dir and add flf files
 - [ ] iterm2 defaults
 - [ ] more to be determined
   - [ ] additional dotfile items/updates

@@ -6,7 +6,7 @@
     - default.config.yml
 
   pre_tasks:
-    - name: ensure .figlet/fonts directory
+    - name: ensure ~/.figlet/fonts directory
       file: 
         path: "~/.figlet/fonts/"
         state: directory
