@@ -78,6 +78,7 @@ mas_installed_apps:
   - { id: 497799835, name: "Xcode (15.0.1)" }
   - { id: 1295203466, name: "Microsoft Remote Desktop (10.9.4)" }
   - { id: 1298486723, name: "FileZilla Pro (3.65.1)" }
+  - { id: 425424353, name: "The Unarchiver (4.3.6)" }
 
 mas_email: ""
 mas_password: ""
