@@ -1,0 +1,16 @@
+---
+- name: Copy iTerm2 Profile json to DynamicProfiles folder
+  copy:
+    src: ./files/iterm2/mac_iterm_profiles.json
+    dest: ~/Library/Application\ Support/iTerm2/DynamicProfiles/mac_iterm_profiles.json
+  failed_when: false
+  check_mode: false
+  changed_when: false
+
+- name: Copy iTerm2 Preferences file to Library/Preferences folder
+  copy:
+    src: ./files/iterm2/com.googlecode.iterm2.plist
+    dest: ~/Library/Preferences/com.googlecode.iterm2.plist
+  failed_when: false
+  check_mode: false
+  changed_when: false
