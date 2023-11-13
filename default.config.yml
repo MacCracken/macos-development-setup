@@ -37,6 +37,7 @@ dotfiles_files:
   - .gitconfig
   - .p10k.zsh
   - .zshrc
+  - .figlet/font/modular.flf
   # - .inputrc
   # - .macos
   # - .vimrc
