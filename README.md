@@ -26,7 +26,8 @@ Inspired by Jeff Geerling's [mac-dev-playbook](https://github.com/geerlingguy/ma
 - [X] dotfiles (.zshrc, etc)
 - [X] ohmyzsh role, powerlevel10k brew cask
 - [X] ensure .figlet/fonts dir and add flf files
-- [ ] iterm2 defaults
+- [X] iterm2 defaults
+- [ ] .macos file run
 - [ ] more to be determined
   - [ ] additional dotfile items/updates
   - [ ] additional packages tbd
