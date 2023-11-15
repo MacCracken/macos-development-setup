@@ -45,6 +45,7 @@ dotfiles_files:
 homebrew_installed_packages:
   - autoconf
   - awscli
+  - bat
   - btop
   - figlet
   - fzf
