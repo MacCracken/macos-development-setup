@@ -14,3 +14,18 @@
   failed_when: false
   check_mode: false
   changed_when: false
+
+- name: Ensure expected four ttf files are installed
+  command: "ls -F ~/Library/Fonts/{{ item.name | regex_replace(' ', '\\\\ ') }}"
+  register: existing_font_info
+  failed_when: false
+  check_mode: false
+  changed_when: false
+  with_items: "{{ terminal_fonts }}"
+
+- name: Copy ttf files to ~/Library/Fonts folder
+  get_url:
+    url: "{{ item.repo }}"
+    dest: "~/Library/Fonts/{{ item.name }}"
+  when: existing_font_info | length > 0
+  with_items: "{{ existing_font_info.results | selectattr('item.name', 'in', terminal_fonts | map(attribute='name')) | map(attribute='item') | list }}"

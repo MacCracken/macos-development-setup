@@ -87,6 +87,12 @@ mas_password: ""
 
 macos_script: "~/.macos --no-restart"
 
+terminal_fonts:
+  - {name: 'MesloLGS NF Regular.ttf', repo:  https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf }
+  - {name: 'MesloLGS NF Bold.ttf', repo:  https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf }
+  - {name: 'MesloLGS NF Italic.ttf', repo:  https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf }
+  - {name: 'MesloLGS NF Bold Italic.ttf', repo:  https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf }
+
 # Install packages from other package managers.
 # Note: You are responsible for making sure the required package managers are
 # installed, eg. through homebrew.
