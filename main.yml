@@ -36,9 +36,9 @@
     #   when: configure_sudoers
     #   tags: ['sudoers']
 
-    # - import_tasks: tasks/macos.yml
-    #   when: configure_macos
-    #   tags: ['macos']
+    - import_tasks: tasks/macos.yml
+      when: configure_macos
+      tags: ['macos']
 
     - import_tasks: tasks/extra-packages.yml
       tags: ['extra-packages']
