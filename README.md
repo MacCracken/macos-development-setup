@@ -20,16 +20,9 @@ Inspired by Jeff Geerling's [mac-dev-playbook](https://github.com/geerlingguy/ma
 
 ### TASKS
 
-- [X] install brew packages
-- [X] development applications
-- [X] mas (mac app store) applications
-- [X] dotfiles (.zshrc, etc)
-- [X] ohmyzsh role, powerlevel10k brew cask
-- [X] ensure .figlet/fonts dir and add flf files
-- [X] iterm2 defaults
-- [ ] .macos file run
-- [ ] more to be determined
-  - [ ] additional dotfile items/updates
-  - [ ] additional packages tbd
-  - [ ] additional apps tbd
-  - [ ] additional mas apps tbd
+- [X] main items available
+- [ ] additional items
+  - [ ] dotfile items/updates
+  - [ ] tbd packages
+  - [ ] tbd apps
+  - [ ] tbd mas apps
