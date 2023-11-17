@@ -32,6 +32,7 @@ dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: "~/.dotfiles"
 dotfiles_home: "~"
 dotfiles_files:
+  - .macos
   - .aliases
   - .functions.zsh
   - .gitconfig
@@ -39,7 +40,6 @@ dotfiles_files:
   - .zshrc
   - .figlet/fonts/modular.flf
   # - .inputrc
-  # - .macos
   # - .vimrc
 
 homebrew_installed_packages:
