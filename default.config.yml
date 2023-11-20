@@ -16,15 +16,21 @@ dockitems_persist:
   - name: "Obsidian"
     path: "/Applications/Obsidian.app/"
     pos: 5
-  - name: "iTerm"
+  - name: "Warp"
     path: "/Applications/iTerm.app/"
     pos: 6
+  - name: "iTerm"
+    path: "/Applications/iTerm.app/"
+    pos: 7
   - name: "Visual Studio Code"
     path: "/Applications/Visual Studio Code.app/"
-    pos: 7
+    pos: 8
+  - name: "DevToys"
+    path: "/Applications/DevToys.app/"
+    pos: 9
   - name: "VirtualBox"
     path: "/Applications/VirtualBox.app/"
-    pos: 8
+    pos: 10
 
 configure_sudoers: false
 sudoers_custom_config: ''
@@ -54,6 +60,7 @@ homebrew_installed_packages:
   - awscli
   - bat
   - btop
+  - exa
   - figlet
   - fzf
   - git
@@ -66,6 +73,7 @@ homebrew_installed_packages:
   - powerlevel10k
   - ruby
   - terraform
+  - tmux
   - wget
   - zsh-syntax-highlighting
 
@@ -75,13 +83,16 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - amethyst
+  - devtoys
   - docker
-  - font-hack-nerd-font
+  - dockutil
   - iterm2
   - obsidian
   - vagrant
   - virtualbox
   - visual-studio-code
+  - warp
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
