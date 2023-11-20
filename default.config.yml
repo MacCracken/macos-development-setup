@@ -119,11 +119,7 @@ composer_packages: []
 # - name: drush
 #   state: present # present/absent, default: present
 #   version: "^8.1" # default: N/A
-gem_packages:
-  - name: colorls
-    state: present
-    version: "~> 1.4.6"
-#gem_packages: []
+gem_packages: []
 # - name: bundler
 #   state: present # present/absent/latest, default: present
 #   version: "~> 2.4.21" # default: N/A
