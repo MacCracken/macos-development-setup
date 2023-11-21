@@ -71,7 +71,7 @@ homebrew_installed_packages:
   - npm
   - openssl
   - powerlevel10k
-  - ruby
+  - rbenv
   - rust
   - terraform
   - tmux
