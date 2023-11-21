@@ -72,6 +72,7 @@ homebrew_installed_packages:
   - openssl
   - powerlevel10k
   - ruby
+  - rust
   - terraform
   - tmux
   - wget
