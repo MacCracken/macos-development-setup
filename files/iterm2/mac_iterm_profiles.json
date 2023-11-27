@@ -19,7 +19,7 @@
     "Blue Component" : 0.30978869999999997,
     "Red Component" : 0.30978869999999997
   },
-  "Normal Font" : "MesloLGS-NF-Regular 18",
+  "Normal Font" : "MesloLGS-NF-Regular 16",
   "Bold Color" : {
     "Green Component" : 1,
     "Blue Component" : 1,
@@ -36,7 +36,7 @@
     "Red Component" : 0.65882350000000001
   },
   "Custom Directory" : "No",
-  "Rows" : 45,
+  "Rows" : 55,
   "Default Bookmark" : "No",
   "Blend" : 0.25373181329257244,
   "Cursor Guide Color" : {
@@ -92,7 +92,7 @@
     "Red Component" : 0.20990739999999999
   },
   "Only The Default BG Color Uses Transparency" : false,
-  "Columns" : 130,
+  "Columns" : 150,
   "Idle Code" : 0,
   "Ansi 13 Color" : {
     "Green Component" : 0.61330589999999996,
