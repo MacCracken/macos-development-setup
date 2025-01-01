@@ -16,14 +16,14 @@ dockitems_persist:
   - name: "Obsidian"
     path: "/Applications/Obsidian.app/"
     pos: 5
-  - name: "iTerm"
-    path: "/Applications/iTerm.app/"
+  - name: "Ghostty"
+    path: "/Applications/Ghostty.app/"
     pos: 6
   - name: "Visual Studio Code"
     path: "/Applications/Visual Studio Code.app/"
     pos: 7
-  - name: "DevToys"
-    path: "/Applications/DevToys.app/"
+  - name: "Zen Browser"
+    path: "/Applications/Zen Browser.app/"
     pos: 8
   - name: "VirtualBox"
     path: "/Applications/VirtualBox.app/"
@@ -90,6 +90,7 @@ homebrew_cask_apps:
   - vagrant
   - virtualbox
   - visual-studio-code
+  - zen-browser
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
