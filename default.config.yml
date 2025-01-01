@@ -16,21 +16,18 @@ dockitems_persist:
   - name: "Obsidian"
     path: "/Applications/Obsidian.app/"
     pos: 5
-  - name: "Warp"
-    path: "/Applications/iTerm.app/"
-    pos: 6
   - name: "iTerm"
     path: "/Applications/iTerm.app/"
-    pos: 7
+    pos: 6
   - name: "Visual Studio Code"
     path: "/Applications/Visual Studio Code.app/"
-    pos: 8
+    pos: 7
   - name: "DevToys"
     path: "/Applications/DevToys.app/"
-    pos: 9
+    pos: 8
   - name: "VirtualBox"
     path: "/Applications/VirtualBox.app/"
-    pos: 10
+    pos: 9
 
 configure_sudoers: false
 sudoers_custom_config: ''
@@ -42,15 +39,15 @@ sudoers_custom_config: ''
 dotfiles_repo: https://github.com/maccracken/dotfiles.git
 dotfiles_repo_version: main
 dotfiles_repo_accept_hostkey: true
-dotfiles_repo_local_destination: "~/.dotfiles"
+dotfiles_repo_local_destination: "~/Repose/dotfiles"
 dotfiles_home: "~"
 dotfiles_files:
   - .macos
-  - .aliases
-  - .functions.zsh
-  - .gitconfig
-  - .p10k.zsh
-  - .zshrc
+  - git/.gitconfig
+  - zsh/.zshrc
+  - zsh/.config/zsh/.aliases
+  - zsh/.config/zsh/.functions.zsh
+  - zsh/.config/zsh/env_vars.zsh
   - .figlet/fonts/modular.flf
   # - .inputrc
   # - .vimrc
@@ -60,17 +57,17 @@ homebrew_installed_packages:
   - awscli
   - bat
   - btop
-  - exa
+  - eza
   - figlet
   - fzf
   - git
   - go
   - lolcat
-  - neofetch
+  - fastfetch
   - node
   - npm
   - openssl
-  - powerlevel10k
+  - starship
   - rbenv
   - rust
   - terraform
@@ -88,12 +85,11 @@ homebrew_cask_apps:
   - devtoys
   - docker
   - dockutil
-  - iterm2
+  - ghostty
   - obsidian
   - vagrant
   - virtualbox
   - visual-studio-code
-  - warp
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
@@ -108,6 +104,8 @@ mas_password: ""
 macos_script: "~/.macos --no-restart"
 
 terminal_fonts:
+  - {name: 'Caskaydia Mono NFM Regular', repo: https://github.com/eliheuer/caskaydia-cove/raw/refs/heads/master/fonts/ttf/CaskaydiaCove-Regular.ttf }
+  - {name: 'Caskaydia Mono NFM Bold', repo: https://github.com/eliheuer/caskaydia-cove/raw/refs/heads/master/fonts/ttf/CaskaydiaCove-Bold.ttf}
   - {name: 'MesloLGS NF Regular.ttf', repo:  https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf }
   - {name: 'MesloLGS NF Bold.ttf', repo:  https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf }
   - {name: 'MesloLGS NF Italic.ttf', repo:  https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf }

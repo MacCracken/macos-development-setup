@@ -1,9 +1,8 @@
 ---
 roles:
   - name: elliotweiser.osx-command-line-tools
-  - name: geerlingguy.dotfiles
-  - name: maccracken.ohmyzsh
-    src: ssh://git@github.com/maccracken/role-ohmyzsh.git
+  - name: maccracken.dotfiles
+    src: ssh://git@github.com/maccracken/role-dotfiles.git
     version: main
     scm: git
 
