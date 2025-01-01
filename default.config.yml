@@ -8,26 +8,30 @@ configure_macos: true
 # Set to 'true' to configure the Dock via dockutil.
 configure_dock: true
 dockitems_remove: []
-# - Launchpad
+#- Launch Pad
 # - TV
 # - Podcasts
 # - 'App Store'
+
 dockitems_persist:
-  - name: "Obsidian"
-    path: "/Applications/Obsidian.app/"
+  - name: "Zen Browser"
+    path: "/Applications/Zen Browser.app/"
     pos: 5
   - name: "Ghostty"
     path: "/Applications/Ghostty.app/"
     pos: 6
+  - name: "Obsidian"
+    path: "/Applications/Obsidian.app/"
+    pos: 7
   - name: "Visual Studio Code"
     path: "/Applications/Visual Studio Code.app/"
-    pos: 7
-  - name: "Zen Browser"
-    path: "/Applications/Zen Browser.app/"
     pos: 8
-  - name: "VirtualBox"
-    path: "/Applications/VirtualBox.app/"
-    pos: 9
+  #- name: "VirtualBox"
+  #  path: "/Applications/VirtualBox.app/"
+  #  pos: 9
+  #- name: "Discord"
+  #  path: "/Applications/Discord.app/"
+  #  pos: 10
 
 configure_sudoers: false
 sudoers_custom_config: ''
@@ -83,6 +87,7 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - amethyst
   - devtoys
+  #- discord
   - docker
   - dockutil
   - ghostty

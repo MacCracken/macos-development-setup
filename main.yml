@@ -5,11 +5,11 @@
   vars_files:
     - default.config.yml
 
-  pre_tasks:
-    - name: ensure ~/.figlet/fonts directory
-      file: 
-        path: "~/.figlet/fonts/"
-        state: directory
+  #pre_tasks:
+  #  - name: ensure ~/.figlet/fonts directory
+  #    file: 
+  #      path: "~/.figlet/fonts/"
+  #      state: directory
 
   roles:
     - role: elliotweiser.osx-command-line-tools
