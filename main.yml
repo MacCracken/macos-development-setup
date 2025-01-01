@@ -25,9 +25,6 @@
       tags: ['dock']
 
   tasks:
-    - import_tasks: tasks/iterm2.yml
-      when: configure_terminal
-      tags: ['terminal']
 
     - import_tasks: tasks/sudoers.yml
       when: configure_sudoers
