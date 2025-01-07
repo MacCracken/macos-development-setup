@@ -45,9 +45,13 @@ dotfiles_repo_version: main
 dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: "~/Repos/dotfiles"
 dotfiles_home: "~"
-dotfiles_folders: #[]
-  - zsh
+dotfiles_folders:
   - git
+  - ghostty
+  - nvim
+  - starship
+  - tmux
+  - zsh
 dotfiles_files:
   - .testtmp
   #- .macos
