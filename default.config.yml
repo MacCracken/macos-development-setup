@@ -53,8 +53,7 @@ dotfiles_folders:
   - tmux
   - zsh
 dotfiles_files:
-  - .testtmp
-  #- .macos
+  - .macos
 
 homebrew_installed_packages:
   - autoconf
