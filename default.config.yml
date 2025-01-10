@@ -46,6 +46,7 @@ dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: "~/Repos/dotfiles"
 dotfiles_home: "~"
 dotfiles_folders:
+  - eza
   - git
   - ghostty
   - nvim
