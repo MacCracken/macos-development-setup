@@ -61,6 +61,7 @@ homebrew_installed_packages:
   - awscli
   - bat
   - btop
+  - dockutil
   - eza
   - figlet
   - fzf
@@ -91,7 +92,6 @@ homebrew_cask_apps:
   - devtoys
   #- discord
   - docker
-  - dockutil
   - ghostty
   - obsidian
   - vagrant
