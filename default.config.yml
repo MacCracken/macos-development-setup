@@ -111,7 +111,7 @@ mas_installed_apps:
 mas_email: ""
 mas_password: ""
 
-macos_script: "~/.macos --no-restart"
+macos_script: "sh ~/.macos --no-restart"
 
 terminal_fonts:
   - {name: 'Caskaydia Mono NFM Regular', repo: https://github.com/eliheuer/caskaydia-cove/raw/refs/heads/master/fonts/ttf/CaskaydiaCove-Regular.ttf }
