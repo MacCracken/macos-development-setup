@@ -69,6 +69,7 @@ homebrew_installed_packages:
   - go
   - lolcat
   - fastfetch
+  - neovim
   - node
   - npm
   - openssl
