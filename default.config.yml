@@ -74,6 +74,7 @@ homebrew_installed_packages:
   - npm
   - openssl
   - starship
+  - stow
   - rbenv
   - rust
   - terraform
