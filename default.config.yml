@@ -69,10 +69,12 @@ homebrew_installed_packages:
   - go
   - lolcat
   - fastfetch
+  - minikube
   - neovim
   - node
   - npm
   - openssl
+  - podman
   - starship
   - stow
   - rbenv
