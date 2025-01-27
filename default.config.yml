@@ -78,7 +78,6 @@ homebrew_installed_packages:
   - starship
   - stow
   - rbenv
-  - rust
   - terraform
   - tmux
   - tpm
