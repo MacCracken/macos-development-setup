@@ -7,7 +7,9 @@ Inspired by Jeff Geerling's [mac-dev-playbook](https://github.com/geerlingguy/ma
 ## Installation
 
   1. Install Homebrew
-      1. `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+      1. ```sh
+         bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+         ```
   2. Install Ansible
       1. brew install ansible
       2. alternative install (https://docs.ansible.com/ansible/latest/installation_guide/index.html)
