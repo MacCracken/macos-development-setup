@@ -7,13 +7,35 @@ configure_macos: true
 
 # Set to 'true' to configure the Dock via dockutil.
 configure_dock: true
-dockitems_remove: []
-#- Launch Pad
-# - TV
-# - Podcasts
-# - 'App Store'
+dockitems_remove: #[]
+- 'App Store'
+- Contacts
+- Facetime
+- Freeform
+- 'iPhone Mirroring'
+- Keynote
+- Maps
+- Messages
+- News
+- Notes
+- Numbers
+- Pages
+- Photos
+- Reminders
+- Settings
+- TV
+
 
 dockitems_persist:
+  - name: "Launch Pad"
+    path: "/Applications/Launch Pad.app/"
+    pos: 2
+  - name: "Calendar"
+    path: "/Applications/Calendar.app/"
+    pos: 3
+  - name: "Music"
+    path: "/Applications/Music.app/"
+    pos: 4
   - name: "Zen Browser"
     path: "/Applications/Zen Browser.app/"
     pos: 5
@@ -29,9 +51,6 @@ dockitems_persist:
   #- name: "VirtualBox"
   #  path: "/Applications/VirtualBox.app/"
   #  pos: 9
-  #- name: "Discord"
-  #  path: "/Applications/Discord.app/"
-  #  pos: 10
 
 configure_sudoers: false
 sudoers_custom_config: ''
