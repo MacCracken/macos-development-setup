@@ -91,9 +91,7 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - amethyst
   - devtoys
-  #- discord
   - docker
   - ghostty
   - obsidian
