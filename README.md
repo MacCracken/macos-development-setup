@@ -13,7 +13,7 @@ Inspired by Jeff Geerling's [mac-dev-playbook](https://github.com/geerlingguy/ma
          ```
 
   2. Install Ansible
-      1. brew install ansible
+      1. brew install ansible & git
       2. alternative install (https://docs.ansible.com/ansible/latest/installation_guide/index.html)
       3. update ansible.cfg with python interpreter (version)
   3. Clone or download this repository to your local drive.
