@@ -10,7 +10,7 @@ configure_dock: true
 dockitems_remove: #[]
 - 'App Store'
 - Contacts
-- Facetime
+- FaceTime
 - Freeform
 - 'iPhone Mirroring'
 - Keynote
@@ -22,35 +22,39 @@ dockitems_remove: #[]
 - Pages
 - Photos
 - Reminders
-- Settings
+- 'System Settings'
+- Safari
 - TV
 
 
 dockitems_persist:
-  - name: "Launch Pad"
-    path: "/Applications/Launch Pad.app/"
+  - name: "Mail"
+    path: "/Applications/Mail.app/"
     pos: 2
+  - name: "Launchpad"
+    path: "/Applications/Launchpad.app/"
+    pos: 3
   - name: "Calendar"
     path: "/Applications/Calendar.app/"
-    pos: 3
+    pos: 4
   - name: "Music"
     path: "/Applications/Music.app/"
-    pos: 4
+    pos: 5
   - name: "Zen Browser"
     path: "/Applications/Zen Browser.app/"
-    pos: 5
+    pos: 6
   - name: "Ghostty"
     path: "/Applications/Ghostty.app/"
-    pos: 6
+    pos: 7
   - name: "Obsidian"
     path: "/Applications/Obsidian.app/"
-    pos: 7
+    pos: 8
   - name: "Visual Studio Code"
     path: "/Applications/Visual Studio Code.app/"
-    pos: 8
+    pos: 9
   #- name: "VirtualBox"
   #  path: "/Applications/VirtualBox.app/"
-  #  pos: 9
+  #  pos: 10
 
 configure_sudoers: false
 sudoers_custom_config: ''
