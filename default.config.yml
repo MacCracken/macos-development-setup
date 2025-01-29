@@ -62,8 +62,8 @@ sudoers_custom_config: ''
 dotfiles_repo: git@github.com:MacCracken/dotfiles.git
 dotfiles_repo_version: main
 dotfiles_repo_accept_hostkey: true
-dotfiles_repo_local_destination: "~/Repos/dotfiles"
-dotfiles_home: "~"
+dotfiles_repo_local_destination: ~/Repos/dotfiles
+dotfiles_home: '~'
 dotfiles_folders:
   - eza
   - git
