@@ -75,6 +75,7 @@ dotfiles_folders:
   - nvim
   - starship
   - tmux
+  - zen
   - zsh
 dotfiles_files:
   - .macos
